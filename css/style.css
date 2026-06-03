@@ -1,4 +1,6 @@
-/* ------------------- COMMON CSS START ------------------- */
+/* ========================================
+                COMMON CSS PART
+======================================== */
 a{
     text-decoration: none;
 }
@@ -6,9 +8,25 @@ nav{
     background: #1C1E53;
     padding: 16px 0px !important;
 }
-/* -------------------- COMMON CSS END -------------------- */
-
-/* --------------------- NAVBAR START --------------------- */
+.common-title h2{
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 16px;
+}
+.common-title p{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    width: 405px; 
+}
+/* ========================================
+                NAVBAR PART
+======================================== */
 .navbar-nav{
     column-gap: 32px;
 }
@@ -40,9 +58,9 @@ nav{
     background-color: transparent;
     border: 1px solid #FCD980;
 }
-/* ---------------------- NAVBAR END ---------------------- */
-
-/* --------------------- BANNER START --------------------- */
+/* ========================================
+                BANNER PART
+======================================== */
 .banner{
     background: #1C1E53;
     padding: 126px 0;
@@ -67,37 +85,87 @@ nav{
 .banner .banner-btn{
     color: #1B1C2B !important; 
     background-color: #FCD980;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
     padding: 16px 56px;
     border-radius: 41px;
     border: 1px solid transparent;
     transition: 0.4s;
+    display: inline-block;
 }
 .banner .banner-btn:hover{
     color: #FCD980 !important; 
     background-color: transparent;
     border: 1px solid #FCD980;
 }
-.banner .banner-bttn{
+.banner .banner-btn-pricing{
     color: white; 
-    background-color: transparent;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Manrope", sans-serif;
-    padding: 16px 56px;
-    border-radius: 41px;
-    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+}
+.banner .banner-btn-pricing i{
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%);
+    transition: 0.4s;
+    opacity: 0;
+}
+.banner .banner-btn-pricing:hover i{
+    right: -50px;
+    opacity: 1;
+}
+/* ========================================
+                WORK PART
+======================================== */
+.work-part{
+    padding: 128px 0;
+    background-color: #F4F6FC;
+}
+.get-in-touch-button{
     position: relative;
 }
-.banner .banner-bttn i{
-    margin-left: 10px;
+.get-in-touch-button a{
+    color: #2405F2;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.get-in-touch-button i{
+    color: #2405F2;
     position: absolute;
-    top: 35%;
-    right: 20px;
+    top: 50%;
+    left: 190px;
+    transform: translateY(-50%);
+    transition: 0.4s;
+}
+.get-in-touch-button:hover i{
+    left: 210px;
+} 
+.work-part .col-lg-7 .row{
+    row-gap: 48px;
+}
+.work-part .col-lg-7 h3{
+    color: #282938;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+.work-part .col-lg-7 p{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    width: 295px;
 }
 
-/* ---------------------- BANNER END ---------------------- */
 
 
+    
