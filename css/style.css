@@ -258,30 +258,26 @@ nav{
     margin-top: 30px;
 }
 
-
-
-
 .project-side-content{
     position: relative;
     overflow: hidden;
 }
 .project-side-content .side-overlay{
-    width: 100%;
+    width: 98%;
     height: 100%;
     background-image: linear-gradient(330deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.42));
     position: absolute;
-    top: 0px;
-    right: -420px;
+    top: 300px;
+    left: 0px;
     transition: 0.4s;
     padding-top: 100px;
     padding-left: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
 }
-
 .project-side-content:hover .side-overlay{
-    right: 0px;
+    top: 0px;
     overflow: visible;
 }
 .project-side-content .side-overlay h4{
@@ -314,4 +310,56 @@ nav{
 }
 .last-overlay{
     margin-top: 30px;
+}
+/* ========================================
+                FEATURE PART
+======================================== */
+.feature-part{
+    background-color: #F4F6FC;
+    padding: 128px 0;
+}
+.feature-part .row{
+    row-gap: 24px;
+    padding-top: 47px;
+}
+.feature-part .common-title p{
+    font-weight: 500;
+    text-align: center;
+    width: auto;
+}
+.feature-part .common-title h2{
+    font-weight: 600;
+    text-align: center;
+    width: 630px;
+    margin: auto;
+}
+.feature-part .card{
+    padding-top: 58px;
+    padding-bottom: 48px;
+    padding-left: 48px;
+    padding-right: 32px;
+    border: 0px;
+    border-radius: 0px;
+}
+.feature-part .card-body{
+    padding: 0px !important;
+}
+.feature-part .card-img-top{
+    width: 8%;
+}
+.feature-part .card-title{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+.feature-part .card-text{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    width: 324.08px;
+    line-height: 28px;
 }
