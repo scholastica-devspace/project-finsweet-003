@@ -363,3 +363,33 @@ nav{
     width: 324.08px;
     line-height: 28px;
 }
+/* ========================================
+                TESTIMONIAL PART
+======================================== */
+.testimonial-part{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.testimonial{
+    color: #282938;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    width: 843px;
+    padding-bottom: 48px;
+}
+.client{
+    margin-left: 14px;
+}
+.client-name{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.client-position{
+    color: #282938;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
