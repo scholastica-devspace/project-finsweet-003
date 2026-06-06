@@ -367,6 +367,7 @@ nav{
                 TESTIMONIAL PART
 ======================================== */
 .testimonial-part{
+    background-color: rgba(244, 246, 252, .50);
     padding-top: 130px;
     padding-bottom: 130px;
 }
@@ -392,4 +393,78 @@ nav{
     font-size: 12px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
+}
+/* ========================================
+                FAQ PART
+======================================== */
+.faq-part{
+    padding-top: 96px;
+    padding-bottom: 128px;
+}
+.faq-part .secondary-title{
+    padding: 32px 0px;
+}
+.faq-part .secondary-title p{
+    color: rgba(36, 5, 242, .87);
+}
+.accordion{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.accordion-header{
+    padding: 32px 0px;
+}
+.accordion-item{
+    border: 0px !important;
+    border-bottom: 1px solid #ECECF1 !important;
+}
+.accordion span{
+    color: #2405F2;
+    margin-right: 59px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.accordion-button.collapsed{
+    background-color: transparent !important;
+    border: 0px !important;
+}
+.accordion-button:not(.collapsed){
+    background-color: transparent !important;
+    box-shadow: 0px 0px transparent;
+}
+.accordion-button:focus{
+    box-shadow: 0px 0px transparent;
+    color: #282938;
+}
+.accordion-button:not(.collapsed):after{
+    background-image: none;
+    content: "x";
+    transform: translateY(-10%) rotate(0deg);
+    transition: 0.4s;
+}
+.accordion-button::after{
+    background-image: none;
+    content: "+";
+    transform: translateY(-10%) rotate(0deg);
+    transition: 0.4s;
+}
+.accordion-button{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    background-color: transparent !important;
+}
+.accordion-body.collapsed{
+    box-shadow: 0px 0px transparent !important;
+}
+.accordion-body{
+    color: rgba(40, 41, 56, .87);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin: 0 85px; 
 }
