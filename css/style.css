@@ -707,3 +707,28 @@ nav{
 .fa-brands{
     margin-right: 27px;
 }
+/* ========================================
+                FOOTER TAIL PART
+======================================== */
+.tail-part .box{
+    flex-direction: row;
+}
+.tail-part p, 
+.tail-part a{
+    color: #1B1C2B;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+}
+.tail-part ul{
+    display: flex;
+    column-gap: 32px;
+    justify-content: flex-end;
+    margin: 0px;
+
+}
+.tail-part .row{
+    padding: 32px 0px;
+    margin: 0px;
+}
