@@ -126,4 +126,33 @@
         padding-bottom: 30px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     }
+    /* ========================================
+                PROJECT PART
+    ======================================== */
+    .project-part{
+    padding: 70px 0;
+    }
+    .project-part .box{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 30px;
+    }  
+    .project-part .row{
+        margin: 0px;
+    }
+    .project-part .common-title h2{
+        text-align: start;
+    }
+    .project-part .get-in-touch-button:hover i{
+        left: 110px;
+    }
+    .project-part .project-content{
+        margin-bottom: 20px;
+    }
+    .project-part .overlay{
+        display: none;
+    }
+    .project-side-content .side-overlay{
+        display: none;
+    }
 }
