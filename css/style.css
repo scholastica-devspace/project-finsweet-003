@@ -132,14 +132,12 @@ nav{
 .banner .banner-btn-pricing i{
     position: absolute;
     top: 50%;
-    right: -30px;
+    right: -20px;
     transform: translateY(-50%);
     transition: 0.4s;
-    opacity: 0;
 }
 .banner .banner-btn-pricing:hover i{
-    right: -50px;
-    opacity: 1;
+    right: -40px;
 }
 /* ========================================
                 WORK PART

@@ -1,4 +1,7 @@
 @media (min-width:320px) and (max-width:575.99px){
+    /* ========================================
+                NAVBAR PART
+    ======================================== */
     .navbar-toggler{
         color: white;
         border: 1px solid transparent;
@@ -36,5 +39,49 @@
     .button-box{
         text-align: center;
         margin-bottom: 15px;
+    }
+    /* ========================================
+                BANNER PART
+    ======================================== */
+    .banner{
+    padding: 90px 0;
+    }
+    .banner h1{
+    font-size: 34px;
+    line-height: 55px;
+    text-align: center;
+    }
+    .banner p{
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 39px;
+    }
+    .banner .banner-btn{
+    font-size: 14px;
+    padding: 8px 20px;
+    margin-left: -15px;
+    }
+    .banner .banner-btn:hover{
+    color: #1B1C2B !important; 
+    background-color: #FCD980;
+    border: 1px solid transparent;
+    }
+    .banner .banner-btn-pricing{
+    font-size: 14px;
+    margin-left: 15px;
+    }
+    .banner .banner-btn-pricing:hover i{
+    right: -20px;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner .banner-img{
+        text-align: center;
+    }
+    .banner img{
+        width: 92%;
+        margin-top: 50px;
     }
 }
