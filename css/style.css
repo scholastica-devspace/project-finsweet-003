@@ -645,3 +645,65 @@ nav{
 /* ========================================
                 FOOTER PART
 ======================================== */
+.footer-part{
+    background-color: #1C1E53;
+}
+.row{
+    padding-top: 100px;
+}
+.part-one p{
+    color: rgba(255, 255, 255, .80);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 22px;
+    padding-bottom: 86px;
+    width: 399px;
+}
+.part-two{
+    background-color: #FCD980;
+    width: 517px;
+}
+.box{
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+.part-two h5{
+    color: #1B1C2B;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+.part-two p{
+    color: rgba(27, 28, 43, .80);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding-top: 1px;
+}
+.email, .call{
+    margin-left: 29px;
+}
+.part-three h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.part-three p{
+    color: rgba(255, 255, 255, .8);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-top: 14px;
+    padding-bottom: 28px;
+    margin: 0;
+}
+.icons{
+    color: white;
+}
+.fa-brands{
+    margin-right: 27px;
+}
