@@ -155,4 +155,35 @@
     .project-side-content .side-overlay{
         display: none;
     }
+    /* ========================================
+                FEATURE PART
+    ======================================== */
+    .feature-part{
+    padding: 90px 0;
+    }
+    .feature-part .common-title h2{
+        font-size: 30PX;
+        text-align: center;
+        line-height: 50px;
+        width: auto;
+        margin: auto;
+    }
+    .feature-part .card-img-top{
+        padding-bottom: 20px;
+    }
+    .feature-part .card-title{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Poppins", sans-serif;
+        padding-top: 5px;
+        padding-bottom: 12px;
+    }
+    .feature-part .card-text{
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        width: auto;
+        line-height: 28px;
+        padding-bottom: 0px !important;
+    }
 }
