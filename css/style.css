@@ -1,9 +1,5 @@
-/* ========================================
-                COMMON CSS PART
-======================================== */
-a{
-    text-decoration: none;
-}
+
+
 nav{
     background: #1C1E53;
     padding: 16px 0px !important;
@@ -468,9 +464,6 @@ nav{
 /* ========================================
                 CONTACT PART
 ======================================== */
-.contact-part{
-    padding-bottom: 77px;
-}
 .contact-text{
     position: relative;
     padding: 0px !important;
@@ -594,3 +587,61 @@ nav{
     background-color: transparent;
     border: 1px solid #FCD980;
 }
+
+/* ========================================
+                CONTACT PART
+======================================== */
+.blog-part{
+    padding-top: 77px;
+    padding-bottom: 179px;
+}
+.card-group{
+    column-gap: 32px;
+    padding-top: 64px;
+}
+.card{
+    border: 1px solid transparent !important;
+    border-radius: 0px;
+}
+.card-body{
+    padding: 0px;
+}
+.card-img-top{
+    padding-bottom: 40px;
+    border-radius: 0px;
+}
+.text-body-secondary{
+    color: rgba(40, 41, 56, .70);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.card-title{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 16px 0;
+}
+.card-text{
+    color: rgba(40, 41, 56, .70);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-bottom:32px !important;
+
+}
+.blog-part .get-in-touch-button a{
+    color: #282938;
+}
+.blog-part .get-in-touch-button i{
+    color: #282938;
+    left: 110px;
+}
+.blog-part .get-in-touch-button:hover i{
+    color: #282938;
+    left: 130px;
+}
+/* ========================================
+                FOOTER PART
+======================================== */

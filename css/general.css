@@ -1,6 +1,17 @@
+a{
+    text-decoration: none;
+}
 .secondary-title{
     width: 328px;
 }
+
+.primary-title{
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
 .secondary-title h3{
     color: #282938;
     font-size: 38px;
