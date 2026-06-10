@@ -57,7 +57,6 @@ nav{
     color: #BBBBCB !important; 
     padding-right: 0px !important;
     padding-left: 0px !important;
-    transition: 0.4s;
 }
 .nav-link:hover{
     color: #FFFFFF !important;
@@ -72,6 +71,8 @@ nav{
     border-radius: 41px;
     border: 1px solid rgba(244, 246, 252, 0.20);
     margin-left: 48px;
+    display: inline-block;
+
 }
 .nav-btn:hover{
     color: #FCD980 !important; 
@@ -647,8 +648,6 @@ nav{
 ======================================== */
 .footer-part{
     background-color: #1C1E53;
-}
-.row{
     padding-top: 100px;
 }
 .part-one p{
@@ -708,7 +707,7 @@ nav{
     margin-right: 27px;
 }
 /* ========================================
-                FOOTER TAIL PART
+                TAIL PART
 ======================================== */
 .tail-part .box{
     flex-direction: row;
@@ -726,7 +725,6 @@ nav{
     column-gap: 32px;
     justify-content: flex-end;
     margin: 0px;
-
 }
 .tail-part .row{
     padding: 32px 0px;
