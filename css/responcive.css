@@ -1,7 +1,12 @@
-@media (min-width:320px) and (max-width:575.99px){
-    /* ========================================
+@media (min-width:320px) and (max-width:575.99px){}
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+/* ========================================
                 NAVBAR PART
     ======================================== */
+  
     .navbar-toggler{
         color: white;
         border: 1px solid transparent;
@@ -71,8 +76,8 @@
     font-size: 14px;
     margin-left: 10px;
     }
-    .banner .banner-btn-pricing:hover i{
-    right: -20px;
+    .banner .banner-btn-pricing i{
+    display: none ;
     }
     .banner-content{
         text-align: center;
@@ -154,6 +159,9 @@
     }
     .project-side-content .side-overlay{
         display: none;
+    }
+    .project-side-content img{
+        width: 95%;
     }
     /* ========================================
                 FEATURE PART
@@ -254,7 +262,7 @@
         text-align: center;
     }
     .contact-part .overlay{
-        padding-left: 0px;
+        padding-left: 0px !important;
         padding-top: 50px;
     }
     .contact-content{
@@ -283,6 +291,9 @@
     .contact-button{
         font-size: 14px;
     }
+    .contact-content .get-in-touch-button i{
+    display: none;
+}
     /* ========================================
                 BLOG PART
     ======================================== */

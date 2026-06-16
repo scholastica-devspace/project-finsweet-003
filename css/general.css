@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 ul{
     list-style: none;
 }
@@ -16,6 +21,7 @@ a{
 }
 
 .secondary-title h3{
+    box-sizing: border-box;
     color: #282938;
     font-size: 38px;
     font-weight: 600;
